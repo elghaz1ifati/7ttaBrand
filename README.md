@@ -7,7 +7,7 @@ A modern and responsive e-commerce frontend built with **React**, **Vite**, and 
 
 ## 🚀 Live Demo
 
-> *(Add your deployed link here — e.g. Vercel or Netlify)*
+> *not available for now*
 
 ---
 
