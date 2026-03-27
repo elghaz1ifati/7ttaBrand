@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(18px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeScale {
+  0% { opacity: 0; transform: scale(0.95) translateY(10px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes fadeDown {
+  0% { opacity: 0; transform: translateY(-16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.65s cubic-bezier(0.25, 0.8, 0.25, 1) both;
+  }
+  .animate-fade-scale {
+    animation: fadeScale 0.75s cubic-bezier(0.25, 0.8, 0.25, 1) both;
+  }
+  .animate-fade-down {
+    animation: fadeDown 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) both;
+  }
+  .animation-delay-100 { animation-delay: 0.1s; }
+  .animation-delay-200 { animation-delay: 0.2s; }
+  .animation-delay-300 { animation-delay: 0.3s; }
+}
