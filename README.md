@@ -1,4 +1,4 @@
-# 7ttaBrand# 🛍️ 7ttaBrand
+# 🛍️ 7ttaBrand
 
 A modern and responsive e-commerce frontend built with **React**, **Vite**, and **Tailwind CSS**.
 7ttaBrand showcases products with a clean UI, smooth user experience, and scalable component structure.
